@@ -8,24 +8,23 @@ Install:
 `npm install swipe-direction`
 
 Usage:
-`
 .
 .
 .
-import useSwipeDetector from 'swipe-direction'
+
+```javascript
+import useSwipeDetector from "swipe-direction";
 
 const SwapContainer = () => {
-// eslint-disable-next-line no-unused-vars
-const[moveTo, events] = useSwipeDetector()
-return (
-
-  <div className='grid'>
-    <div {...events} className='box-detector' >
-      <h1 className='text'> {moveTo} </h1>
+  const [moveTo, events] = useSwipeDetector();
+  return (
+    <div className="grid">
+      <div {...events} className="box-detector">
+        <h1 className="text"> {moveTo} </h1>
+      </div>
     </div>
-  </div>
-)
-}
+  );
+};
+```
 
-`
-this code show a element
+this code show a element where you can do swipe and it show to the direction on screen
