@@ -1,8 +1,8 @@
-#### Note
+### Note
 
 This package is for use in mobile devices that works with touch screen (web mobile). The package permit identify the direction swipe
 
-#### How to use
+### How to use
 
 Install:
 `npm install swipe-direction`

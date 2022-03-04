@@ -1,6 +1,6 @@
 {
   "name": "swipe-direction",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "detect direction swipe of an element on web mobile",
   "main": "src/index.js",
   "scripts": {
@@ -16,5 +16,13 @@
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarlos723/swipe-direction.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scarlos723/swipe-direction/issues"
+  },
+  "homepage": "https://github.com/scarlos723/swipe-direction#readme"
 }
